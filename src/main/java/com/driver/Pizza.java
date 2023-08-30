@@ -69,10 +69,10 @@ public class Pizza {
     }
 
     public void addTakeaway(){
-        if(!isAskforPaperBag) {
+
             this.price += this.PaperbagPrice;
             isAskforPaperBag =true;
-        }
+
 
     }
 
