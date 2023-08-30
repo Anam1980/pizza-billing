@@ -52,9 +52,7 @@ public class Pizza {
     }
 
     public void addExtraToppings(){
-        if(isAskforCheese==false){
-            return;
-        }
+
         if(!isAskforToppings) {
             if (isVeg) {
                 //veg
